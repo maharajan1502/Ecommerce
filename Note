@@ -1,5 +1,5 @@
 #Note
 kindly download the react node moduled
-using  "npm create-react-app Ecommerce"
+using  "npm create-react-app Ecommerce" in terminal
 after complete the package downloaded 
 change the all files except node modules files because i am not able to upload due to modules file size
