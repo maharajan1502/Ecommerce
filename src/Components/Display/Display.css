@@ -1,0 +1,89 @@
+.display{
+    display: flex;
+    margin: 5px 90px;
+    gap: 10px;
+}
+.display .productleft{
+    display: flex;
+    margin: 0px 20px;
+    align-items: center;
+    
+}
+.display .productleft .imglist{
+    display: flex;
+   
+}
+
+.display .productleft .imglist .dupimg img{
+    height: 110px;
+    width: 130px;
+}
+.display .productleft .imglist .orgimg img{
+    height: 453px;
+    width: 450px;
+}
+.display .productright {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: 10px;
+    
+    
+}
+.display .productright .star {
+    display: flex;
+    align-items: center;
+    font-size: small
+    ;
+}
+.display .productright .star img{
+    height: 15px;
+    width: 15px;
+}
+.display .productright .productprice{ 
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.display .productright .productprice .newP{ 
+    order: 2;
+    font-size: 18px;
+    font-weight: 700;
+    color: red;
+}
+.display .productright .productprice .oldP{ 
+    order: 1;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: line-through;
+    color: gray;
+}
+.Sizelist{
+    display: flex;
+    gap: 5px;
+    margin: 30px auto;
+
+}
+.Sizelist div{
+    border: 1px solid gray;
+    background-color: #fbfbfb;
+    padding: 5px 8px;
+    font-weight: 600;
+    font-size: smaller;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.Sizelist .true{
+    background-color: coral;
+}
+.display .productright button{
+    height: 40px;
+    width: 180px;
+    font-weight: 900;
+    background-color: #ff4141;
+    color: white;
+    cursor: pointer;
+}
+.true{
+ background-color: #ff4141;
+}

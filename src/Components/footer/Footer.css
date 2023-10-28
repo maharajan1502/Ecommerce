@@ -1,0 +1,45 @@
+
+.fologo{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+
+}
+.footer .fologo img{
+    height: 70px;
+    width: 70px;
+} 
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info ul{
+    display: flex;
+    gap: 70px;
+    list-style-type: none;
+    
+}
+.info ul li{
+    font-weight: 400;
+    
+    
+}
+
+.info ul li:hover{
+    color: blue;
+    
+}
+.Fi {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    gap: 20px;
+    
+}
+.Fi img{
+    height: 20px;
+    width: 20px;
+}

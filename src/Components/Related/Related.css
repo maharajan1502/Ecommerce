@@ -1,0 +1,12 @@
+.relpro{
+    display: flex;
+    gap: 30px;
+    margin: 20px 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.related{
+    margin:30px auto;
+    margin-top: 50px;
+}
