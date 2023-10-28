@@ -1,0 +1,14 @@
+.Breadcrum{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    align-items: center;
+    gap: 1px;
+    font-weight: 400;
+}
+.Breadcrum img{
+    height: 14px;
+    width: 14px;
+    font-weight: 500;
+
+}
